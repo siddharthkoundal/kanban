@@ -1,0 +1,44 @@
+.priority-board {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding: 16px;
+}
+
+.priority-column {
+  padding: 8px;
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.priority-header {
+  text-align: center;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.priority-header h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.priority-header span {
+  font-size: 12px;
+  padding: 2px 6px;
+}
+
+.priority-card {
+  padding: 10px;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 8px;
+  background-color: white;
+  margin-bottom: 8px;
+}
+
+.ticket-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

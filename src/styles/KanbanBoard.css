@@ -1,0 +1,14 @@
+.kanban-board {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.kanban-board > div {
+  flex: 1;
+  min-width: 250px;
+}
+
+.dropdown-container{
+  background-color: white;
+}
